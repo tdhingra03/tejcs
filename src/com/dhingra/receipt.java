@@ -1,8 +1,7 @@
 package com.dhingra;
 
 public class receipt {
-    public static final int TAX= .08;
-    public static final int TIP= .15;
+
     public static void main(String[] args){
 
         double price1 = 38;
@@ -19,7 +18,7 @@ public class receipt {
         System.out.println("Subtotal:"+subtotal);
         System.out.println("TAX:"+finalTAX);
         System.out.println("TIP:"+finalTIP);
-        System.out.println((38+40+30)*TIP);
+        challengetwo.line();
         System.out.println("TOTAL:"+finalprice);
 
 
