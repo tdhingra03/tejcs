@@ -18,7 +18,6 @@ public class receipt {
         System.out.println("Subtotal:"+subtotal);
         System.out.println("TAX:"+finalTAX);
         System.out.println("TIP:"+finalTIP);
-        challengetwo.line();
         System.out.println("TOTAL:"+finalprice);
 
 
