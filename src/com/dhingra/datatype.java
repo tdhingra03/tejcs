@@ -22,7 +22,7 @@ import java.util.*;
 public class datatype {
 
     public static void main(String[] args) {
-        Scanner screen = new Scanner(System.in);
+        Scanner number = new Scanner(System.in);
         int i = 4;
         double d = 4.0;
         String s = "Greenhill";
@@ -33,16 +33,16 @@ public class datatype {
         double db;
         String sc;
         System.out.println("type your integer");
-        ia = screen.nextInt();
+        ia = number.nextInt();
         System.out.println("type your double");
-        db = screen.nextDouble();
+        db = number.nextDouble();
         System.out.println("type your phrase");
-        screen.nextLine();
-        sc = screen.nextLine();
+        number.nextLine();
+        sc = number.nextLine();
         System.out.println(i + ia);
         System.out.println(d + db);
-        System.out.println(s + sc);
+        System.out.println(s + " " + sc);
 
-        screen.close();
+        number.close();
     }
 }
