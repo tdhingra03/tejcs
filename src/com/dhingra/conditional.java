@@ -1,4 +1,4 @@
-package com.dhingra.;
+package com.dhingra;
 import java.util.Random;
 import java.util.Scanner;
 
@@ -14,7 +14,7 @@ public class conditional {
         do {
             integer= random.nextInt(137);
             System.out.println("Your number was " + integer);
-            WeirdnotWeird(integer);
+            method(integer);
             Scanner userinput = new Scanner(System.in);
             System.out.println("do you want to play again? input Y or N");
             playagain= userinput.next().charAt(0);
@@ -22,7 +22,7 @@ public class conditional {
 
         } while (playagain=='Y');
     }
-    public static void WeirdnotWeird(int integer){
+    public static void method(int integer){
         if (integer % 2 == 1) {
             System.out.println("Weird");
         } else if (integer % 2 == 0 && integer >= 2 && integer <= 5) {
