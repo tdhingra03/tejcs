@@ -4,7 +4,7 @@
 //define variable # of string
 //open do while loop
 //use println to ask user how many string they want to input
-//control #strings to be between 1 and 10 inclusive!
+//control #strings to be between 1 and 10 inclusive
 //use println to ask user to input string
 //For loop to control T
 //declare the String = call Method(new word)
