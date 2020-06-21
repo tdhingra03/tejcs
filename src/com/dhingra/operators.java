@@ -1,3 +1,4 @@
+//Tej Dhingra- operator challenge
 //import scanner
 //create scanner object
 //define variables, mealCost, tipPercent, taxPercent
